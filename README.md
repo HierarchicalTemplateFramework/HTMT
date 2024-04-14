@@ -61,5 +61,4 @@ integrate JSONPath functionality into their applications.
 
 ## License
 This document is part of the HTMT project, which is open source and freely available under the MIT License. For full
-details, see the [LICENSE](./LICENSE) file and the [main README](./README.md) for project details and contribution
-guidelines.
+details, see the [LICENSE](./LICENSE) file.

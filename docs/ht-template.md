@@ -1,10 +1,10 @@
 # `ht-template`
-The `ht-template` attribute in the HTMT (HyperText Markup Templating) system is used to define reusable content blocks 
-that can be instantiated multiple times within your application. This attribute allows developers to define a template 
+The `ht-template` attribute in the HTMT (HyperText Markup Templating) system is used to define reusable content blocks
+that can be instantiated multiple times within your application. This attribute allows developers to define a template
 once and use it in various contexts, significantly reducing code redundancy and enhancing maintainability.
 
 ## Syntax
-The ht-template attribute is typically placed on a <template> tag, which is a standard HTML5 element used to hold 
+The ht-template attribute is typically placed on a <template> tag, which is a standard HTML5 element used to hold
 client-side content that you don't want to be rendered until instantiated via JavaScript.
 ```html
 <template ht-template="template-id">
@@ -15,7 +15,7 @@ client-side content that you don't want to be rendered until instantiated via Ja
 
 ## Examples
 ### Defining a Template
-Create a template for displaying user information, which can be reused wherever needed: 
+Create a template for displaying user information, which can be reused wherever needed:
 ```html
 <template ht-template="user-info">
     <div>
@@ -26,7 +26,7 @@ Create a template for displaying user information, which can be reused wherever 
 ```
 
 ### Using a Template within a Loop
-Use the `user-info` template within a loop to render information for each user in a list: 
+Use the `user-info` template within a loop to render information for each user in a list:
 ```html
 <div ht-loop="$.users[*]" ht-template="user-info">
     <!-- Each user's information will be rendered using the 'user-info' template -->
@@ -39,8 +39,8 @@ Use the `user-info` template within a loop to render information for each user i
 - **Accessibility**: Ensure that templates are accessible, especially when they contain interactive elements or complex structures.
 
 ## Compatibility
-`ht-template` uses the standard HTML `<template>` element, which is supported in all modern browsers. However, ensure 
-your templating logic in JavaScript correctly handles instantiation and data binding for these templates, especially in 
+`ht-template` uses the standard HTML `<template>` element, which is supported in all modern browsers. However, ensure
+your templating logic in JavaScript correctly handles instantiation and data binding for these templates, especially in
 older browsers or non-standard environments.
 
 ## License

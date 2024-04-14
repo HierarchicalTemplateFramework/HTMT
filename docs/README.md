@@ -14,8 +14,8 @@ content generation. Below you will find links to detailed documentation for each
 - [`ht-case`](./ht-case.md) - Defines cases within a switch.
 - [`ht-class`](./ht-class.md) - Applies CSS classes conditionally.
 
-##
-- [Global Settings in HTMT](./global.md)
+## Advance
+- [Root-Level Data Access in HTMT - `Rooting`](./rooting.md)
 
 Explore each link to learn more about how to utilize these attributes in your web projects effectively.
 
